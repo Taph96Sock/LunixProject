@@ -2,14 +2,15 @@ sudo: required
 dist: trusty
 language: java
 jdk:
-- oraclejdk8
+- openjdk8
 
 os:
   - windows
   - linux
   - osx
 
-script: ./linux clean install
+services:
+  -redis
 
 notifications:
  email: moustaphasock813@gmail.com
