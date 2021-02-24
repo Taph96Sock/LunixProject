@@ -1,6 +1,6 @@
 sudo: required
 dist: trusty
-language: lunix
+language: java
 os:
   - windows
   - linux
