@@ -2,8 +2,6 @@ sudo: required
 
 dist: trusty
 
-install: ./install-dependencies.sh
-
 os:
   - windows
   - linux
@@ -11,7 +9,7 @@ os:
 
 language: java
 jdk:
-- openjdk8
+- oraclejdk8
 
 script: bundle exec rake build && bundle exec rake builddoc
 
