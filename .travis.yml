@@ -7,10 +7,6 @@ os:
   - linux
   - osx
 
-language: java
-jdk:
-- oraclejdk8
-
 script: bundle exec rake build && bundle exec rake builddoc
 
 notifications:
