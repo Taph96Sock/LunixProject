@@ -7,7 +7,9 @@ os:
 
 language: java
 jdk:
-- jdk1.8.0_281
+- 1.8.0_281
+
+services: redis
  
 
 script: bundle exec rake build && bundle exec rake builddoc
