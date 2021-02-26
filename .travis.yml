@@ -10,11 +10,11 @@ language: bash
 services:
  -docker
 
-gemfile: Gemfile.lock
+# gemfile: Gemfile.lock
 
-before_install: bundle install
+# before_install: bundle install
 
-script: bundle exec build && bundle exec builddoc
+# script: bundle exec build && bundle exec builddoc
 
 notifications:
  email: moustaphasock813@gmail.com
