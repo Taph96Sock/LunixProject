@@ -10,7 +10,5 @@ language: bash
 services:
  -docker
 
-script: bundle exec thor build
-
 notifications:
  email: moustaphasock813@gmail.com
