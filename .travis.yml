@@ -12,7 +12,7 @@ services:
 
 gemfile: Gemfile.lock
 
-script: bundle exec rake build && bundle exec rake builddoc
+script: bundle exec build && bundle exec builddoc
 
 notifications:
  email: moustaphasock813@gmail.com
