@@ -10,7 +10,7 @@ language: bash
 services:
  -docker
 
-script: run PROJET.sh
+script: srun PROJET.sh
 
 notifications:
  email: moustaphasock813@gmail.com
