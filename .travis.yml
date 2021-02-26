@@ -10,7 +10,9 @@ language: bash
 services:
  -docker
 
-script: bundle exec rake build && bundle exec rake builddoc
+script:
+ -.bundle/
+ -bundle exec rake build && bundle exec rake builddoc
 
 notifications:
  email: moustaphasock813@gmail.com
