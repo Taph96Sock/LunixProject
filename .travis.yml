@@ -5,10 +5,7 @@ dist: trusty
 os:
   - linux
 
-language: java
-jdk:
-  -jdk1.8.0_281
- 
+language: bash
 
 script: bundle exec rake build && bundle exec rake builddoc
 
