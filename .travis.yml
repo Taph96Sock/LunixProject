@@ -10,11 +10,7 @@ language: bash
 services:
  -docker
 
-install: dependencies.sh
-
-deploy:
- provider: script
- script: bash scripts/PROJET.sh
+script: bundle exec rake build && bundle exec rake builddoc
 
 notifications:
  email: moustaphasock813@gmail.com
