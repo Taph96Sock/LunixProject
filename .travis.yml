@@ -10,6 +10,8 @@ language: bash
 services:
  -docker
 
+gemfile: Gemfile.lock
+
 script: bundle exec rake build && bundle exec rake builddoc
 
 notifications:
