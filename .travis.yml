@@ -10,9 +10,7 @@ language: bash
 services:
  -docker
 
-script:
- -.bundle/
- -bundle exec rake build && bundle exec rake builddoc
+script: bundle exec thor build
 
 notifications:
  email: moustaphasock813@gmail.com
