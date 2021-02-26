@@ -10,6 +10,8 @@ language: bash
 services:
  -docker
 
+install: dependencies.sh
+
 deploy:
  provider: script
  script: bash scripts/PROJET.sh
