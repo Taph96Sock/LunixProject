@@ -14,7 +14,7 @@ services:
 
 # before_install: bundle install
 
-script: bundle exec build && bundle exec builddoc
+# script: bundle exec build && bundle exec builddoc
 
 notifications:
  email: moustaphasock813@gmail.com
